@@ -1,0 +1,2 @@
+SELECT nombrecompleto, comunidad FROM votantes JOIN localidades ON votantes.localidad = localidades.idlocalidad JOIN provincias ON provincias.idprovincia = localidades.provincia WHERE localidades.numerohabitantes > 300000
+/*Enlazamos dos tablas, por eso hay dos join*/

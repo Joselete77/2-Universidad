@@ -1,0 +1,2 @@
+SELECT nombrecompleto FROM votantes WHERE nombrecompleto LIKE '%n'
+--LIKE para buscar en las columnas mediante patron. % Delante indica que acaba en ese caracter, % detrás indica que lo de antes aparece al principio

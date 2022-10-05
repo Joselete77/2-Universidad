@@ -1,0 +1,1 @@
+alter table eventos add constraints check_tipo1 check(substr(tipo,-1,1)='s' and substr(tipo,1,1)=UPPER(substr(tipo,1,1)))

@@ -1,0 +1,1 @@
+SELECT idpartido || ' con presidente ' || presidente || ' creado en ' ||fechacreacion AS Partidazo FROM partidos
