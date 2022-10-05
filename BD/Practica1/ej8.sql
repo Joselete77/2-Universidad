@@ -1,0 +1,1 @@
+INSERT INTO localidades VALUES (17, 'Marbella', 10000, 6)

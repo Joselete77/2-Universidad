@@ -1,0 +1,1 @@
+SELECT nombre || ' de la provincia con id ' || provincia AS localizacion FROM localidades

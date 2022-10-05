@@ -1,0 +1,1 @@
+SELECT nombre || ' de tipo '||tipo "convocatoria" FROM eventos
